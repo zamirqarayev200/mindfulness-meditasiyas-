@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: url('5-Types-of-Meditation-Which-One-is-Right-for-You-scaled-1-min.webp') center/cover fixed no-repeat;
+    color: #363636;
+  }
+
+  header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin: 2rem;
+  }
+
+  main {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem 0;
+  }
+
+  footer {
+    margin-top: 2rem;
+    color: #777;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  footer p {
+    margin: 0;
+  }
+  
+.button {
+    background-color: rgb(255, 127, 127);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.train-center{
+    padding: 30px;
+}
+
+@keyframes aToz {
+    from {width: 100px; height: 100px}
+    to {width: 200px; height: 200px}
+  }
+
+  @keyframes zToa {
+    from {width: 200px; height: 200px}
+    to {width: 100px; height: 100px}
+  }
